@@ -1,5 +1,235 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+
+.wrapper,
+.page {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image:var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000028;
 }
+
+
+.header {
+  height: 100vh;
+  min-height:768px;
+  display: grid;
+  align-self: flex-start;
+  position: relative;
+}
+
+.header__rec{
+  color:  var(--accent-color);
+  text-transform: uppercase;
+  font-size: var(--text-font-size);
+  line-height: 25px;
+  font-family: IBM Plex Mono;
+  justify-self:self-end;
+  position: absolute;
+  margin-inline-end: 20px;
+}
+
+.header__rec::after{
+  content: '';
+  background-color: var(--accent-color);
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  margin-inline-start: 10px;
+  margin-block-end: 2px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.header__rec::before{
+  content: '';
+  position: absolute;
+  right:-10px;
+  border-top:1px solid var(--accent-color);
+  border-right:1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+}
+
+
+.bottom__left-corner::before{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  border-bottom:1px solid var(--accent-color);
+  border-left:1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+}
+
+.header__title {
+  color: #DB00FF;
+  font-family: IBM Plex Mono;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  margin-block-start: 10px;
+  line-height: 83%;
+}
+
+
+.header__paragraph{
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  background-color: var(--title-decor);
+  color: #000028;
+  font-weight: 700;
+  max-width: 495px;
+  max-height: 115px;
+  white-space: pre-wrap;
+  justify-self: flex-end;
+  margin-inline-end: 10px;
+  margin-block-start: -50px;
+}
+
+.header__theme-menu-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  gap: 10px;
+  margin-inline-end: 10px;
+  margin-block-start: 40px;
+}
+
+.header__theme-menu-button{
+  color: var(--accent-color);
+  font-family: IBM Plex Mono;
+  background-color: transparent;
+  border: none;
+  text-transform: lowercase;
+  font-size: var(--text-font-size);
+}
+
+.wrapper{
+  background-color: #000028;
+}
+
+.why__section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.side__title{
+  color: var(--accent-color);
+  font-size: var(--text-font-size);
+  font-family: IBM Plex Mono;
+  line-height: 23px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.block__title{
+  background-color: var(--title-decor);
+  color: #000028;
+  font-size: var(--text-font-size);
+  font-family: IBM Plex Mono;
+  font-weight: bold;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.block__paragraph-link{
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.block__paragraph-link:hover{
+  border-bottom: 1px solid #fff;
+}
+
+
+.block__paragraph {
+  font-size: var(--text-font-size);
+  font-family: IBM Plex Mono;
+  color:#F1B2CE;
+  line-height: 23px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+.info__block{
+  height: fit-content;
+}
+
+.sub__title{
+  font-weight: normal;
+}
+
+.gallery__block{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+  gap: 10px;
+  max-width: 355px;
+  margin-inline-start: 10px;
+}
+
+.gallery__img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer{
+  background-color: #000028;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,21 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root{
+  --accent-color:#FF0070;
+  --title-decor:#FF0070;
+  --text-font-size:18px;
+  --bg-image:url('/slozhno/project/images/cover-image-dark.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
