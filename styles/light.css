@@ -5,8 +5,20 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color:#353430;
+  --accent-hover-color:#32312D66;
+  --link-color:#353430;
+  --title-decor:#FF8DCB;
+  --bg-image:url('/slozhno/project/images/cover-image-light.png');
+  --footer-color:#FFC2E6;
+  --footer-shadow-color:#FF0070;
+  --main-color:#FFF1F7;
+  --main-bg-color:#FFF1F7;
+  --rec-color:transparent;
+  --rec-border-color:#353430;
+  --main-header-color:#FFC2E6;
+  --main-header-shadow:#FF8DCB;
+  --main-title-color:#353430;
+  --main-paragraph-color:#353430;
+  --link-shadow-color:#FF8DCB;
 }

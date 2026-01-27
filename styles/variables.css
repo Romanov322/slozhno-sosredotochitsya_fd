@@ -1,10 +1,21 @@
 :root{
   --accent-color:#FF0070;
+  --accent-hover-color:#FF007066;
+  --link-color:#F1B2CE;
   --title-decor:#FF0070;
+  --main-header-color:#DB00FF;
+  --main-header-shadow:#FF0070;
   --text-font-size:18px;
   --bg-image:url('/slozhno/project/images/cover-image-dark.png');
+  --footer-color:#DB00FF;
+  --footer-shadow-color:#FF0070;
+  --main-title-color:#000028;
+  --main-bg-color:#000028;
+  --main-paragraph-color:#F1B2CE;
+  --rec-color:#FF0070;
+  --rec-border-color:#FF0070;
+  --link-shadow-color:#FF0070;
 }
-
 
 
 
