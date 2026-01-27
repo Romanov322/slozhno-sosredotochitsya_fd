@@ -1,1 +1,1 @@
-https://github.com/Romanov322/slozhno.git
+https://github.com/Romanov322/slozhno-sosredotochitsya-fd
