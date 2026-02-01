@@ -6,7 +6,6 @@
   --main-header-color:#DB00FF;
   --main-header-shadow:#FF0070;
   --text-font-size:18px;
-  --bg-image:url('/slozhno/project/images/cover-image-dark.png');
   --footer-color:#DB00FF;
   --footer-shadow-color:#FF0070;
   --main-title-color:#000028;
@@ -15,6 +14,7 @@
   --rec-color:#FF0070;
   --rec-border-color:#FF0070;
   --link-shadow-color:#FF0070;
+  --bg-image:url('../images/cover-image-dark.png');
 }
 
 
